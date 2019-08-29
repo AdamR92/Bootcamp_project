@@ -1,5 +1,15 @@
+
+@font-face {
+  font-family: 'acmeregular';
+  src: url('../../Fonts/acme-regular.woff2') format('woff2'),
+  url('../../Fonts/acme-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "acmeregular", sans-serif;
 }

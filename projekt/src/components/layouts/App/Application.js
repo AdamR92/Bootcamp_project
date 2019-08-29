@@ -5,6 +5,7 @@ import Main from "../Main/Main"
 import CalendarPage from "../calendarPage/calendarPage"
 import Navigation from "../Navigation/Navigation"
 import AboutEvent from "../aboutEvent/aboutEvent"
+import '../../styles/partials/reset.scss'
 
 const NotFound = () => <h2>Niestety nie znaleziono takiego wydarzenia</h2>
 
@@ -12,16 +13,32 @@ class App extends Component {
   state = {
     events: false,
     dataLoaded:false,
-    counter: 0
+    event:{}
 
   };
 
 
   componentDidMount() {
+
+
     fetch('http://localhost:3001/events/').then(resp => resp.json())
         .then(data=>{
           this.setState({events:data});
           this.setState({dataLoaded:true});
+
+          let counter=0;
+
+          this.setState({event:this.state.events[counter]});
+
+          setInterval(()=> {
+            if(counter<this.state.events.length){
+              counter++
+            }else{
+              counter=0
+            }
+            this.setState({event:this.state.events[counter]});
+            console.log(this.state.event)
+          },15000)
         })
   }
 
@@ -32,7 +49,7 @@ class App extends Component {
             <Navigation />
             <Switch>
               <Route exact path="/" render={()=><Main events={this.state.events} />}/>
-              <Route path="/calendarPage/:date" render={()=><CalendarPage event={this.state.events[this.state.counter]}/>}/>
+              <Route path="/calendarPage/:date" render={()=><CalendarPage event={this.state.event}/>}/>
               <Route path="/about" render={()=><AboutEvent events={this.state.events}/>} />
               <Route component={NotFound}/>
             </Switch>
