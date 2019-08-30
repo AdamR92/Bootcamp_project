@@ -31,14 +31,15 @@ class App extends Component {
           this.setState({event:this.state.events[counter]});
 
           setInterval(()=> {
-            if(counter<this.state.events.length){
+            if(counter<this.state.events.length-1){
               counter++
             }else{
               counter=0
             }
             this.setState({event:this.state.events[counter]});
             console.log(this.state.event)
-          },15000)
+            console.log(counter)
+          },5000)
         })
   }
 
@@ -50,7 +51,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" render={()=><Main events={this.state.events} />}/>
               <Route path="/calendarPage/:date" render={()=><CalendarPage event={this.state.event}/>}/>
-              <Route path="/about" render={()=><AboutEvent events={this.state.events}/>} />
+              <Route path="/about" render={()=><AboutEvent event={this.state.event}/>} />
               <Route component={NotFound}/>
             </Switch>
           </HashRouter>

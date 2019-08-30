@@ -7,9 +7,19 @@
   font-style: normal;
 
 }
+
+@font-face {
+  font-family: 'francois_oneregular';
+  src: url('../../Fonts/francoisone-regular.woff2') format('woff2'),
+  url('../../Fonts/francoisone-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "acmeregular", sans-serif;
+  font-family: "francois_oneregular", sans-serif;
 }
