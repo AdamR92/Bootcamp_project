@@ -30,7 +30,7 @@ class App extends Component {
 
           this.setState({event:this.state.events[counter]});
 
-          setInterval(()=> {
+         this.intervalId =setInterval(()=> {
             if(counter<this.state.events.length-1){
               counter++
             }else{
@@ -43,7 +43,11 @@ class App extends Component {
         })
   }
 
-  render() {
+  componentWillUnmount() {
+      clearInterval(this.intervalId)
+  }
+
+    render() {
     if (this.state.dataLoaded){
       return (
           <HashRouter>

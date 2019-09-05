@@ -13,7 +13,7 @@ const Navigation = () => {
         <nav>
             <ul>
                 <li><NavLink exact to="/" activeStyle={selectedStyle}>Home</NavLink></li>
-                <li><NavLink exact to="/calendarPage/:id" activeStyle={selectedStyle}>Calendar</NavLink></li>
+                <li><NavLink exact to="/calendarPage/:eventId " activeStyle={selectedStyle}>Calendar</NavLink></li>
                 <li><NavLink exact to="/about" activeStyle={selectedStyle}>About Event</NavLink></li>
 
             </ul>
