@@ -13,6 +13,40 @@
     align-items:center;
   }
 
+  @-webkit-keyframes rotate-out-2-tr-ccw {
+    0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      -webkit-transform-origin: 100% 0%;
+      transform-origin: 100% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -webkit-transform-origin: 100% 0%;
+      transform-origin: 100% 0%;
+      opacity: 0;
+    }
+  }
+  @keyframes rotate-out-2-tr-ccw {
+    0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      -webkit-transform-origin: 100% 0%;
+      transform-origin: 100% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -webkit-transform-origin: 100% 0%;
+      transform-origin: 100% 0%;
+      opacity: 0;
+    }
+  }
+
+
   .calendarPage {
     border: 2px solid dimgrey;
     height: 450px;
@@ -20,10 +54,15 @@
     border-radius: 0 0 20px 20px;
     text-align: center;
 
+    position: relative;
+
+
+
     .white_flag {
       background-color: white;
       height: 50%;
       width: 100%;
+      //animation: rotate-out-2-br-cw 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
 
       .day {
@@ -46,6 +85,7 @@
       height: 50%;
       width: 100%;
       border-radius: 0 0 20px 20px;
+      //animation: rotate-out-2-br-cw 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
 
     .year {
@@ -54,5 +94,15 @@
       color: white;
       font-size: 25px;
       font-weight: 700;
+    }
+
+    .topPage {
+      animation: rotate-out-2-tr-ccw 5s infinite cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1
+
     }
   }

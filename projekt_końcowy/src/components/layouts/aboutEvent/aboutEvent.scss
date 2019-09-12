@@ -1,3 +1,29 @@
+@-webkit-keyframes swirl-in-bck {
+  0% {
+    -webkit-transform: rotate(540deg) scale(5);
+    transform: rotate(540deg) scale(5);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-bck {
+  0% {
+    -webkit-transform: rotate(540deg) scale(5);
+    transform: rotate(540deg) scale(5);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+
+
 .about_event {
   background: rgba(255,255,255,1);
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 48%, rgba(255,0,0,1) 100%);
@@ -25,6 +51,7 @@
     width:100%;
     height:600px;
     padding-right:20px;
+    animation: swirl-in-bck 2.5s ease-out both
   }
 }
 
