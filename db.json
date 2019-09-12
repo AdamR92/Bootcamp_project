@@ -1,0 +1,268 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "day": 8,
+      "month": "Marzec",
+      "year": "1000 rok",
+      "description": "Zjazd Gnieźnieński: Niemiecki cesarz Otton III przybył z pielgrzymką do grobu św. Wojciecha, symbolicznie koronował Bolesława Chrobrego oraz zgodził się na utworzenie niezależnej polskiej metropolii w Gnieźnie oraz biskupstw w Krakowie, Kołobrzegu i Wrocławiu",
+      "image": "http://i1.wp.com/www.nbportal.pl/__data/assets/image/0009/56835/1.jpg?resize=441%2C291&ssl=1"
+    },
+    {
+      "id": 2,
+      "day": 18,
+      "month": "Kwiecień",
+      "year": "1025 rok",
+      "description": "Koronacja Bolesława Chrobrego na króla Polski",
+      "image": "https://www.polskatradycja.pl/templates/yootheme/cache/koronacja-boleslawa-chrobrego-cdec882b.jpeg"
+    },
+    {
+      "id": 3,
+      "day": 28,
+      "month": "Październik",
+      "year": "1138 rok",
+      "description": "Rozbicie dzielnicowe: W wyniku śmierci króla Bolesława III Krzywoustego, Polska została podzielone na niezależne władztwa terytorialne zwane dzielnicami",
+      "image": "https://img2.dmty.pl//uploads/201002/1267397760_by_nuys_600.jpg"
+    },
+    {
+      "id": 4,
+      "day": 9,
+      "month": "Kwiecień",
+      "year": "1241  rok",
+      "description": "Bitwa pod Legnicą: w wyniku najazdu Tatarów na ziemie polskie, doszło do starcia pod Legnicą, zakończonego klęską wojsk polskich oraz śmiercią księcia wielkopolskiego Henryka Pobożnego",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bitwa_pod_Legnic%C4%85.jpg"
+    },
+    {
+      "id": 5,
+      "day": 20,
+      "month": "Styczeń",
+      "year": "1320 rok",
+      "description": "Koronacja Władysława Łokietka na króla, w wyniku czego doszło do zakończenia rozbicia dzielnicowego i zjednoczenia Polski",
+      "image": "http://desa.art.pl/foto/obiekty/7789_1_high.jpg"
+    },
+    {
+      "id": 6,
+      "day": 25,
+      "month": "Kwiecień",
+      "year": "1333 rok",
+      "description": "Koronacja Kazimierza Wielkiego w katedrze wawelskiej w Krakowie. Działalność Kazimierza Wielkiego wiąże się z powiedzeniem:Zastał Polskę drewnianą a zostawił murowaną",
+      "image": "https://mm.pwn.pl/ency/jpg/583/1s/d88i2683.jpg"
+    },
+    {
+      "id": 7,
+      "day": 16,
+      "month": "Październik",
+      "year": "1384 rok",
+      "description": "Koronacja Jadwigi Andegaweńskiej na Króla Polski",
+      "image": "https://bi.im-g.pl/im/7/6720/z6720757V,Przysiega-krolowej-Jadwigi--Jozef-Simmler-.jpg"
+    },
+    {
+      "id": 8,
+      "day": 12,
+      "month": "Sierpień",
+      "year": "1385 rok",
+      "description": "Polsko-litewska unia w Krewie, na mocy, której Jadwiga poślubiła litewskiego króla Władysława Jagiełłę",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Unia_w_Krewie.JPG"
+    },
+    {
+      "id": 9,
+      "day": 15,
+      "month": "Luty",
+      "year": "1386 rok",
+      "description": "Koronacja Władysława Jagiełły na króla Polski",
+      "image": "http://grafik.rp.pl/grafika2/657489,680948,16.jpg"
+    },
+    {
+      "id": 10,
+      "day": 15,
+      "month": "Lipiec",
+      "year": "1410 rok",
+      "description": "Bitwa pod Grunwaldem: 40 tys. armia polsko-litewsko-ruska pokonała pod Grunwaldem wojska krzyżackie wspierane przez zachodnie rycerstwo – w bitwie zginął wielki mistrz krzyżacki Ulrich von Jungingen",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg"
+    },
+    {
+      "id": 11,
+      "day": 24,
+      "month": "Styczeń",
+      "year": "1507 rok",
+      "description": "Koronacja Zygmunta Starego",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sigismund_I_of_Poland.PNG"
+    },
+    {
+      "id": 12,
+      "day": 10,
+      "month": "Kwiecień",
+      "year": "1525 rok",
+      "description": "Hołd pruski: książe brandenburski Albert Hohenzollern składa hołd lenny królowi Zygmuntowi Staremu w wyniku, którego Prusy Zakonne zostają przekształcone w Księstwo Pruskie",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Prussian_Homage.jpg"
+    },
+    {
+      "id": 13,
+      "day": 27,
+      "month": "Wrzesień",
+      "year": "1605 rok",
+      "description": "Bitwa pod Kircholmem: sprzymierzone wojska polsko-litewskie pod dowództwem hetmana Jana Chodkiewicza pokonały trzykrotnie silniejszą armię szwedzką",
+      "image": "http://s.twojahistoria.pl/uploads/2017/10/Bitwa-pod-Kircholmem-Kossak.jpg"
+    },
+    {
+      "id": 14,
+      "day": 28,
+      "month": "Czerwiec",
+      "year": "1651 rok",
+      "description": "Bitwa pod Beresteczkiem: Za panowania króla Jana Kazimierza, wojska polskie pokonały Kozaków i Tatarów kończąc rozpoczętą dwa lata wcześniej wojnę domową.",
+      "image": "http://static.prsa.pl/images/b6bac56c-2189-4472-9f94-18822d7c3896.jpg"
+    },
+    {
+      "id": 15,
+      "day": 19,
+      "month": "Lipiec",
+      "year": "1655 rok",
+      "description": "Potop szwedzki: Król Karol X wypowiada wojnę Rzeczpospolitej, która zakończyła się klęską oraz poddaniem się Szwedom podczas obrony Kamieńca Podolskiego",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Siege_of_Clari_Montis_%28Jasna_G%C3%B3ra%29_in_1655.png"
+    },
+    {
+      "id": 16,
+      "day": 12,
+      "month": "Wrzesień",
+      "year": "1683 rok",
+      "description": "Bitwa pod Wiedniem. Słynna odsiecz wiedeńska, przeprowadzona przez króla Jana III Sobieskiego, dzięki której koalicja polsko-niemiecko-austriacka pokonała wojska tureckie",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/King_John_III_Sobieski_Sobieski_sending_Message_of_Victory_to_the_Pope%2C_after_the_Battle_of_Vienna_111.PNG"
+    },
+    {
+      "id": 17,
+      "day": 5,
+      "month": "Sierpień",
+      "year": "1772 rok",
+      "description": "I rozbiór Polski: Za panowania króla Stanisława Augusta Poniatowskiego, terytorium polskie została podzielone między Rosję, Prusy i Austrię",
+      "image": "https://media2.nekropole.info/2016/08/The-1st-partition-of-Poland_57a4d5e963700.jpg"
+    },
+    {
+      "id": 18,
+      "day": 3,
+      "month": "Maj",
+      "year": "1791 rok",
+      "description": "Uchwalenie konstytucji 3 maja, pierwszej w historii Polski, a drugiej na świecie zaraz po Stanach Zjednoczonych",
+      "image": "https://d-pt.ppstatic.pl/kadry/k/r/1/5b/f8/5afabf529df69_o,size,1088x550,opt,w,q,71,h,88630e.jpg"
+    },
+    {
+      "id": 19,
+      "day": 27,
+      "month": "Kwiecień",
+      "year": "1792 rok",
+      "description": "Konfederacja targowicka. W wyniku sprzeciwu przeciwko reformom Sejmu Czteroletniego oraz Konstytucji 3 maja, zawiązano spisek magnatów z carycą Rosji Katarzyną II. Powszechny symbol zdrady narodowej",
+      "image": "https://static.prsa.pl/images/6efa7f3d-e2d5-4819-9c4e-cf20684337f5.jpg"
+    },
+    {
+      "id": 20,
+      "day": 21,
+      "month": "Styczeń",
+      "year": "1793 rok",
+      "description": "II rozbiór Polski między Rosję i Prusy, w wyniku którego, Wielkopolska została wcielona do terytorium Prus",
+      "image": "https://media2.nekropole.info/2016/08/The-1st-partition-of-Poland_57a4d5e963700.jpg"
+    },
+    {
+      "id": 21,
+      "day": 24,
+      "month": "Październik",
+      "year": "1795 rok",
+      "description": "III rozbiór Polski między Rosję, Prusy i Austrię. Po tym rozbiorze Polska zniknęła z mapy świata.",
+      "image": "https://media2.nekropole.info/2016/08/The-1st-partition-of-Poland_57a4d5e963700.jpg"
+    },
+    {
+      "id": 22,
+      "day": 9,
+      "month": "Styczeń",
+      "year": "1797 rok",
+      "description": "Utworzenie Legionów Polskich we Włoszech przez Jana Henryka Dąbrowskiego. Powstał m.in wtedy hymn Polski Mazurek Dąbrowskiego, którego słowa zostały skomponowane przez Józefa Wybickiego",
+      "image": "http://s.twojahistoria.pl/uploads/2017/11/Legiony-polskie-we-W%C5%82oszech.-Obraz-J%C3%B3zefa-Peszki-oko%C5%82o-1810-roku..jpg"
+    },
+    {
+      "id": 23,
+      "day": 29,
+      "month": "Listopad",
+      "year": "1830 rok",
+      "description": "Powstanie listopadowe: Polskie zbrojne powstanie przeciwko Imperium Rosyjskiemu zakończone klęską",
+      "image": "https://nck.pl/upload/thumb/2018/11/kossak_battle_of_olszynka_grochowska_auto_1600x800.jpg"
+    },
+    {
+      "id": 24,
+      "day":22,
+      "month": "Styczeń",
+      "year": "1863 rok",
+      "description": "Powstanie styczniowe: Konflikt zbrojny, który wybuchł w ziemiach zaboru imperium Rosyjskiego, zakończony klęską sił polskich i litewskich.",
+      "image": "https://i.wpimg.pl/635x350/i.wp.pl/a/f/jpeg/32514/wiki_powstanie_styczniowe_635.jpeg"
+    },
+    {
+      "id": 25,
+      "day": 28,
+      "month": "Lipiec",
+      "year": "1914 rok",
+      "description": "Wybuch I Wojny Światowej: Przez zabójstwo arcyksięcia Franciszka Ferdynanda na terenie Serbii, doszło do globalnego konfliktu zbrojnego zapoczątkowanego między Serbią a Austro-Węgrami. Polacy opowiadali się i walczyli po stronie Ententy - Francji, Rosji i Wielkiej Brytanii przeciwko Trójprzymierzu - Niemcom, Włochom i Austro-Węgrom",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Bitwa_pod_Kostiuchn%C3%B3wk%C4%85%2C_1_pu_LP_w_okopach%2C_1916.jpg"
+    },
+    {
+      "id": 26,
+      "day": 11,
+      "month": "Listopad",
+      "year": "1918 rok",
+      "description": "Odzyskanie niepodległości: Po 123 latach niewoli dzięki objęciu naczelnego dowództwa przez Józefa Piłsudskiego Polska ponownie zaistniała na mapie świata kończąc okres zaborów",
+      "image": "https://www.smartage.pl/wp-content/uploads/2016/11/4-9.jpg"
+    },
+    {
+      "id": 27,
+      "day": 27,
+      "month": "Grudzień",
+      "year": "1918 rok",
+      "description": "Powstanie wielkopolskie: Jedyne zwycięskie powstanie w historii Polski na mocy, którego Polska odzyskała ziemię należała do zaboru pruskiego i umocniła swoją niepodległość",
+      "image": "https://historiamniejznanaizapomniana.files.wordpress.com/2015/12/leon_prauzinski_szturm_na_prezydium_policji_1918.jpg"
+    },
+    {
+      "id": 28,
+      "day":15,
+      "month": "Sierpień",
+      "year": "1920 rok",
+      "description": "Bitwa Warszawska pomiędzy Polską a ZSRR zwyczajowo nazywana Cudem nad Wisłą, w wyniku, której Polska zachowała niepodległość oraz zatrzymała rozpstrzenianie się komunizmu na Europę Zachodnią",
+      "image": "https://media.wplm.pl/thumbs/NjAweDMwMC9jX2MvdV8xL2NjXzI5YTZjL3AvMjAxOS8wOC8xNS84MjUvNDY0L2RhYWE1MGE0OTdiMzQxYTk5OWM5MTllMTAxYmUwNWVjLmpwZWc=.jpeg"
+    },
+    {
+      "id": 29,
+      "day": 1,
+      "month": "Wrzesień",
+      "year": "1939 rok",
+      "description": "Początek II Wojny Światowej. W wyniku tajnego paktu Ribbentrop-Mołotow Niemcy pod dowództwem Adolfa Hitlera oraz ZSRR pod dowództwem Józefa Stalina zaatakowały Polskę. Po miesiącu walecznych starć Polska skapitulowała a większość walczących zginęła albo wyemigrowała z kraju",
+      "image": "http://www.warszawa.pl/wp-content/uploads/2014/07/2-NN-IPN-Samoloty-niemieckie-nad-Warszaw%C4%85-790x395.jpg"
+    },
+    {
+      "id": 30,
+      "day": 13,
+      "month": "Grudzień",
+      "year":"1981 rok",
+      "description": "Wprowadzenie w Polsce stanu wojennego, czyli stanu nadzwyczajnego w wyniku, którego władzę administracyjną sprawuje wojsko",
+      "image": "https://i0.wp.com/www.polishnews.com/wp-content/uploads/2017/12/obled-wojny.jpg?resize=585%2C381&ssl=1"
+    },
+    {
+      "id": 31,
+      "day": 22,
+      "month": "Lipiec",
+      "year": "1983 rok",
+      "description": "Zniesienie stanu wojennego",
+      "image": "http://www.zaleze.com/wp-content/gallery/13-grudnia-1981-r-w-zalezu/g_zniesienie-stanu-wojennego-prl_zlota-ksiega-osp-zaleze_1a.jpg"
+    },
+    {
+      "id": 32,
+      "day": 17,
+      "month": "Marzec",
+      "year": "1998 rok",
+      "description": "Przystąpienie Polski do NATO- Paktu Północnoatlantyckiego, czyli zbrojnego porozumienia, które przeciwdziała konfliktom militarnym na świecie",
+      "image": "https://ocdn.eu/pulscms-transforms/1/Mj1ktkqTURBXy80YjNkZjAyMjUxMjQzYTMxNzM2YjdlOWY4OWZiNTdjNi5qcGVnkZMCAM0B5A"
+    },
+    {
+      "id": 33,
+      "day": 1,
+      "month": "Maj",
+      "year": "2004 rok",
+      "description": "Przystąpienie Polski do Unii Europejskiej",
+      "image": "https://s.redefine.pl/dcs/o2/redefine/cp/h4/h4u17drp2m71i421w7sfynekfv74rpj1.jpg"
+    }
+  ]
+}
