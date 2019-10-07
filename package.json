@@ -1,9 +1,11 @@
 {
+  "homepage": "https://adamr92.github.io/Poland_history_calendar/.",
   "name": "projekt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.12",
@@ -15,7 +17,9 @@
     "start": "projekt_końcowy/node_modules/.bin/react-scripts start",
     "build": "projekt_końcowy/node_modules/.bin/react-scripts build",
     "test": "projekt_końcowy/node_modules/.bin/react-scripts test",
-    "eject": "projekt_końcowy/node_modules/.bin/react-scripts eject"
+    "eject": "projekt_końcowy/node_modules/.bin/react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
