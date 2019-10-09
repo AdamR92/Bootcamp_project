@@ -8,16 +8,16 @@
     "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
-    "react-bootstrap": "^1.0.0-beta.12",
+    "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.9.0",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0"
   },
   "scripts": {
-    "start": "projekt_końcowy/node_modules/.bin/react-scripts start",
-    "build": "projekt_końcowy/node_modules/.bin/react-scripts build",
-    "test": "projekt_końcowy/node_modules/.bin/react-scripts test",
-    "eject": "projekt_końcowy/node_modules/.bin/react-scripts eject",
+    "start": "Poland_history_calendar/node_modules/.bin/react-scripts start",
+    "build": "Poland_history_calendar/node_modules/.bin/react-scripts build",
+    "test": "Poland_history_calendar/node_modules/.bin/react-scripts test",
+    "eject": "Poland_history_calendar/node_modules/.bin/react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
